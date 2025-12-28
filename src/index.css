@@ -1,0 +1,12 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@font-face {
+  font-family: JetBrains Mono;
+  src: url(./assets/fonts/JetBrainsMono-Regular.ttf);
+}
+@theme {
+  --font-JetBrainsMono: "JetBrains Mono", monospace;
+}
