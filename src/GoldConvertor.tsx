@@ -17,7 +17,7 @@ export default function GoldConvertor() {
   const [ouncevalue, setouncevalue] = useState<string>("");
   const [showounce, setshowounce] = useState<number>(0);
   const [showfinal, setshowfinalprice] = useState<number | string>(0);
-  const [toomanprice, settoomanprice] = useState<number>(0);
+  // const [toomanprice, settoomanprice] = useState<number>(0);
 
   async function fetchounce() {
     const pricegold = await GOLD24Price();
